@@ -1,0 +1,22 @@
+{
+    "name": "yumo/pub2sub",
+    "description": "redis",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.1",
+        "predis/predis": "v1.1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "雨沫",
+            "email": "180705yumo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yumo\\": "src/yumo/"
+        }
+    }
+}
